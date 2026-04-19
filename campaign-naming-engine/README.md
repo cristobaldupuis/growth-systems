@@ -2,13 +2,13 @@
 > **Status:** AI-Native Optimized | **Objective:** Data Fabric Integrity for Genesis Integration
 
 ## 📊 System Architecture
-This engine standardizes execution logic across 13+ brands, ensuring that every dollar of ad spend is machine-readable for automated AI analysis.
+This engine standardizes execution logic across a multi-brand portfolio, ensuring that every dollar of ad spend is machine-readable for automated AI analysis.
 
 ```mermaid
 graph LR
     Input[Media Buyer Input] --> Engine(Python Naming Engine)
     Engine --> String[Standardized Campaign String]
-    String --> Fabric{CSC Data Fabric}
+    String --> Fabric{Portfolio Data Fabric}
     Fabric --> AI[AI-Driven Performance Synthesis]
     AI --> Outcome((Commercial Growth))
 
