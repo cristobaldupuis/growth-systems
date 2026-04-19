@@ -1,0 +1,50 @@
+# AI-Powered Knowledge System for Partner Growth Teams
+
+## The Problem
+
+Growth teams run on institutional knowledge — past experiments, campaign learnings, performance benchmarks, what worked in one market and why it didn't transfer to another. But that knowledge rarely lives anywhere useful. It lives in people's heads, in buried Slack threads, in folders no one can find, and in dashboards that half the team doesn't have access to.
+
+At Ocado Group, I was leading growth for Voilà by Sobeys, Canada's largest pure-play online grocery retailer, while also coordinating with Ocado's global Partner Growth team across multiple markets. The problem was consistent everywhere: onboarding new team members took too long because there was no single source of truth, regional learnings weren't making it to global, and too much time was spent answering questions that had already been answered — just not in a findable way.
+
+There was also a specific data access bottleneck. Performance data lived in Looker, but not everyone on the team had Looker access or the familiarity to query it efficiently. That created a two-tier system where some team members could self-serve on data and others couldn't.
+
+## What I Built
+
+A queryable knowledge system using Google Drive, NotebookLM, and Gemini — no code required, designed to be maintained and used by non-technical marketers.
+
+**The core setup:**
+
+- **Google Drive** as the document layer — all experimentation results, A/B test summaries, campaign learnings, onboarding materials, and regional market context organized into a structured folder system
+- **NotebookLM** as the intelligence layer — notebooks built on top of the Drive content, allowing anyone to ask natural language questions and get answers grounded in the actual documents
+- **Gemini + Google Sheets** as the data bridge — Looker data exported into Sheets on a regular cadence, then surfaced through Gemini so team members could query performance data conversationally without needing direct Looker access
+
+The system was designed so that adding new learnings was as simple as dropping a document into the right Drive folder. No technical maintenance required.
+
+## How It Was Used
+
+- New team members getting up to speed on past experiments and market context without needing to schedule knowledge-transfer calls
+- Regional teams querying global learnings to inform local decisions ("has another market tested X? what happened?")
+- Quick performance data lookups without waiting on a team member with Looker access
+- Surfacing relevant past experiments before starting new ones, reducing redundant testing
+
+## What It Changed
+
+The system started with the Canadian partner team and expanded to Ocado's global Partner Growth team after other regional leads saw how it worked.
+
+Based on conversations with team members, the estimated time saved on routine information retrieval was around **5 hours per person per week** — time that had previously gone to searching for documents, asking colleagues for context, or waiting on data pulls.
+
+The less quantifiable benefit was that it made regional and global knowledge feel closer. Learnings that would have stayed siloed in one market became accessible to the whole team, which meant better decisions and less repeated work.
+
+## Tools Used
+
+| Tool | Role |
+|------|------|
+| Google NotebookLM | Intelligence / Q&A layer |
+| Google Gemini | Conversational data queries |
+| Google Drive | Document and knowledge storage |
+| Google Sheets | Data bridge from Looker |
+| Looker | Source performance data |
+
+---
+
+> **Note:** This is not a software project — there is no code here. I use GitHub to document the systems and workflow tools I build to solve real business problems. If you're a marketer or operator curious about building something similar, feel free to reach out.
