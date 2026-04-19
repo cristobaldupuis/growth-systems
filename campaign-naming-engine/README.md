@@ -1,15 +1,17 @@
-# Campaign Naming & UTM Engine
+# 🛠️ Growth Ops: Multi-Brand Naming & UTM Engine
+> **Status:** AI-Native Optimized | **Objective:** Data Fabric Integrity for Genesis Integration
 
-## The Problem
-Managing growth across a multi-brand portfolio (13+ brands) requires absolute data integrity. Manual naming conventions are the #1 cause of "broken" attribution, which prevents AI models and Automation Engines (like CSC's Genesis) from accurately identifying winning creative hypotheses.
+## 📊 System Architecture
+This engine standardizes execution logic across 13+ brands, ensuring that every dollar of ad spend is machine-readable for automated AI analysis.
 
-## The Solution
-I built this schema-based naming engine to move logic out of fragile spreadsheets and into a centralized, machine-readable script. This ensures that every campaign, ad set, and UTM string follows a strict taxonomy.
+```mermaid
+graph LR
+    Input[Media Buyer Input] --> Engine(Python Naming Engine)
+    Engine --> String[Standardized Campaign String]
+    String --> Fabric{CSC Data Fabric}
+    Fabric --> AI[AI-Driven Performance Synthesis]
+    AI --> Outcome((Commercial Growth))
 
-### Key Features:
-- **Hypothesis Tracking:** Includes "Theme" and "Category" tags to track creative performance (e.g., *Gym-Protein* vs. *Lifestyle*).
-- **Automation Ready:** Designed to be triggered via Slack bots or Zapier to ensure 100% compliance from media buyers.
-- **Data Fabric Integrity:** Standardizes strings with underscores for easy ingestion into Looker, PowerBI, or AI-driven analytics tools.
-
-## Results
-In past roles managing $600k/mo in spend, implementing this system reduced reporting errors by 90% and allowed for real-time creative optimization across 15+ different product categories.
+    style Engine fill:#f96,stroke:#333,stroke-width:2px
+    style Fabric fill:#3498db,color:#fff
+    style Outcome fill:#2ecc71,color:#fff
