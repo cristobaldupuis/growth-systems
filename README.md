@@ -20,9 +20,18 @@ A Pomodoro and time-tracking app built around one constraint: it cannot get in i
 
 ---
 
+## Systems
+
+### [AI Knowledge System for Partner Growth Teams](./ai-knowledge-system/README)
+
+A queryable knowledge layer built at Ocado using Google Drive, NotebookLM, and Gemini. No code. It started with the Canadian partner team, then expanded to Ocado's global Partner Growth team after other regional leads saw it work. Around 5 hours per person per week recovered from document searches and data lookups.
+
+---
+
 ## Research
 
-- [Canadian Subscription & Delivery Benchmark](./research/canadian-subscriptions-benchmark.md) — pricing and mechanics across 11 Canadian delivery services and 14 subscription products, in CAD, verified Q2 2026
+- [Canadian Subscription & Delivery Benchmark](./research/canadian-subscriptions-benchmark.md). Pricing and mechanics across 11 Canadian delivery services and 14 subscription products, in CAD, verified Q2 2026.
+- [Incrementality Measurement Framework](https://www.cristobaldupuis.com/calculator). Diagnoses paid-channel misattribution, builds correction multipliers, and separates incremental performance from what platforms report. Published at cristobaldupuis.com.
 
 ---
 
