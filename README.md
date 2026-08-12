@@ -8,7 +8,7 @@ Two tools are live. One systems writeup and two research references sit alongsid
 
 ## Tools
 
-### [Growth OS](https://github.com/cristobaldupuis/growth-os) · [Live app](https://cristobaldupuis.github.io/growth-os/)
+### [Growth OS](https://github.com/cristobaldupuis/growth-os) · [Live app](https://growth.cristobaldupuis.com)
 
 A growth execution framework for multi-brand ecommerce portfolios. Initiative lifecycle management, a two-proportion z-test sample size calculator, statistical significance tracking, incrementality documentation, ICE scoring, and AI-assisted learning synthesis across closed initiatives. Built in React + Vite with the Anthropic Claude API via BYOK.
 
